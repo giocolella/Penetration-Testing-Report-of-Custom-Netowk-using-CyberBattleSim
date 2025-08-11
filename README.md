@@ -90,7 +90,6 @@ The goals are:
 ## 🏗 Integration / Architecture
 
 ### **Simulation Flow**
-```text
 [Define Network Model] 
     → [Select Agents] 
     → [Run Simulation] 
