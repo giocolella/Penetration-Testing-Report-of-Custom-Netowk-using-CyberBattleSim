@@ -90,11 +90,11 @@ The goals are:
 ## 🏗 Integration / Architecture
 
 ### **Simulation Flow**
-[Define Network Model] 
-    → [Select Agents] 
-    → [Run Simulation] 
-    → [Collect Metrics] 
-    → [Analyze & Compare Results]
+- Define network model — Nodes, services, vulnerabilities, credentials, firewall rules.
+- Select attacker/defender agents — RL models or scripted behaviors.
+- Run simulation — Probe, exploit, privilege escalation, lateral movement.
+- Collect metrics — Steps to success, total cost, compromised hosts, defender actions.
+- Analyze & compare — Performance of agents and tools.
 
 ### **Real-World Test Flow (Infection Monkey)**
 - Setup NAT Network with intentionally vulnerable VMs (like Stapler1 and Metasploitable2).
@@ -105,16 +105,11 @@ The goals are:
 ## 💻 Requirements
 ### **Hardware**
 Host machine capable of running multiple VMs
-
 Minimum recommended: 16 GB RAM, multi-core CPU
-
 ### **Software**
 Python 3.x
-
 Virtualization software (e.g., VirtualBox, VMware)
-
 CyberBattleSim, CybORG, NASim packages
-
 Infection Monkey package
 
 
