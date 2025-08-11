@@ -1,4 +1,4 @@
-# 🔥 Penetration Testing Report of Custom Netowork using CyberBattleSim
+# 🔥 Penetration Testing Report of Custom Netowork using CyberBattleSim and comparison with other simulators and real life tools
 **From Simulation to Real-World Penetration Testing & Ethical Hacking**
 
 [![Python](https://img.shields.io/badge/Python-3.x-blue.svg)](https://www.python.org/)
@@ -34,7 +34,7 @@ The goals are:
 ---
 
 ## 🎯 Motivation / Why This Project?
-- 🧠 **Study Reinforcement Learning-based attackers** in different network environments.
+- 🧠 **Study Reinforcement Learning-based attackers and defenders** in different network environments.
 - 🛡 **Evaluate security countermeasures** without risking production systems.
 - ⚖ **Compare multiple platforms** for cyber range simulation in terms of realism, usability, and capabilities.
 - 🌐 **Bridge simulation and real-world testing** to validate results.
@@ -50,8 +50,9 @@ The goals are:
 - Customizable topologies & vulnerability modeling  
 - Supports scanning, exploitation, privilege escalation, lateral movement
 
-#### **CybORG**
-- Realistic network environments with API-driven agents  
+#### **CybORG CAGE 4**
+- Challenge that shows the features of the CybORG tool
+- Simulated but also realistic network environments with API-driven agents  
 - Zone-based segmentation  
 - Variety of OS/services & vulnerabilities  
 - Supports attacker/defender interaction with formal action definitions
@@ -74,16 +75,6 @@ The goals are:
 - **Deep Q-Network (DQN Agent)**
 - **Q-Learning with Replay Memory (QL Agent)**
 - **Random Agent**
-
----
-
-### 🛡 Defender Capabilities
-- Scan & restore compromised nodes  
-- Deploy decoys  
-- Block/allow network traffic  
-- Detect deception and degrade malicious services  
-
----
 
 ## 🏗 Integration / Architecture
 
